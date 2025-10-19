@@ -1,0 +1,1 @@
+function downloadFull(id){var win=window.open("?cmd=download_full&id="+id,"_blank");win?win.focus():alert("Please allow popups for this website")}
