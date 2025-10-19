@@ -27,7 +27,7 @@ const About = () => {
             <img 
             src={loveitImg} 
             alt="Beautiful Living Room Design" 
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-64 h-64 rounded-full shadow-lg"
             />
             
           </div>
@@ -46,7 +46,7 @@ const About = () => {
             <img 
             src={missionImg} 
             alt="Modern Kitchen Setup" 
-            className="w-full h-auto rounded-lg shadow-lg" />
+            className="w-64 h-64 rounded-full shadow-lg" />
           </div>
         </div>
 
@@ -63,36 +63,12 @@ const About = () => {
             <img 
             src={visionImg} 
             alt="Cozy Home Decor" 
-            className="w-full h-auto rounded-lg shadow-lg" 
+            className="w-64 h-64 rounded-full shadow-lg" 
             />
           </div>
         </div>
 
-        {/* Why Choose Us Section */}
-        <div className="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
-          <h3 className="text-3xl font-semibold text-gray-800 mb-6 text-center">Why Choose Us?</h3>
-          <ul className="space-y-3 mb-6">
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3">✓</span>
-              <span className="text-lg text-gray-600">Wide range of curated, stylish products for every room.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3">✓</span>
-              <span className="text-lg text-gray-600">Fast, reliable delivery and professional installation.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3">✓</span>
-              <span className="text-lg text-gray-600">Customer-focused service ensuring complete satisfaction.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3">✓</span>
-              <span className="text-lg text-gray-600">Affordable prices without compromising on quality.</span>
-            </li>
-          </ul>
-          <p className="text-xl text-center text-gray-800">
-            <strong className="text-orange-500">Feel the Beauty</strong> — Love where you live.
-          </p>
-        </div>
+        
       </div>
 
       {/* Services Section */}
@@ -164,29 +140,40 @@ const About = () => {
                 are truly yours — personal and unique.
               </p>
             </div>
-          </div>
-
-          {/* Services CTA */}
-          <div className="max-w-2xl mx-auto text-center">
-            <h3 className="text-3xl font-bold text-amber-900 mb-6">Why Choose Feel the Beauty?</h3>
-            <ul className="space-y-2 mb-6">
-              <li className="text-lg text-amber-800">✨ Carefully curated, premium-quality products</li>
-              <li className="text-lg text-amber-800">✨ End-to-end services: from selection to installation</li>
-              <li className="text-lg text-amber-800">✨ Affordable luxury you can trust</li>
-              <li className="text-lg text-amber-800">✨ 100% Satisfaction Guarantee</li>
-            </ul>
-            <p className="text-lg text-gray-600 mb-6">
-              Start your journey towards a more beautiful, comfortable, and inspiring home with us today!
-            </p>
-            <Link
+          </div>         
+        </div>
+      </div>
+      {/* Why Choose Us Section */}
+        <div className="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
+          <h3 className="text-3xl font-semibold text-gray-800 mb-6 text-center">Why Choose Us?</h3>
+          <ul className="space-y-3 mb-6">
+            <li className="flex items-start">
+              <span className="text-green-500 mr-3">✓</span>
+              <span className="text-lg text-gray-600">Wide range of curated, stylish products for every room.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-3">✓</span>
+              <span className="text-lg text-gray-600">Fast, reliable delivery and professional installation.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-3">✓</span>
+              <span className="text-lg text-gray-600">Customer-focused service ensuring complete satisfaction.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-green-500 mr-3">✓</span>
+              <span className="text-lg text-gray-600">Affordable prices without compromising on quality.</span>
+            </li>
+          </ul>
+          <p className="text-xl text-center text-gray-800">
+            <strong className="text-orange-500">Feel the Beauty</strong> — Love where you live.
+          </p>
+          <Link
           to="/Contact"
           className="inline-block px-8 py-3 bg-amber-700 text-white font-semibold rounded-full no-underline hover:bg-amber-900 hover:text-white"
         >
           Contact Us
         </Link>
-          </div>
         </div>
-      </div>
     </div>
   );
 };
