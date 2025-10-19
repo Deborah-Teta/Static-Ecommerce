@@ -24,21 +24,18 @@ interior-design-ecommerce/
 |   |__assets
 |   |   |__photos
 │   ├── components/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── HeroSection.js
-│   │   ├── ProductCard.js
-│   │   ├── FeaturedSection.js
-│   │   └── QuoteSection.js
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── ProductCard.jsx
 │   ├── pages/
-│   │   ├── Home.js
-│   │   ├── Products.js
-│   │   ├── About.js
-│   │   └── Contact.js
-│   ├── data/
-│   │   └── products.js
-│   ├── App.js
-│   ├── index.js
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+|   |__ App.css
+│   ├── index.jsx
 │   └── index.css
  README.md # This documentation
 
