@@ -19,7 +19,7 @@ function App() {
         <Header />
         <main className="flex-grow">
           <Routes>
-            <Route path="/Home" element={<Home onAddToCart={handleAddToCart} />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Product" element={<Product onAddToCart={handleAddToCart} />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
