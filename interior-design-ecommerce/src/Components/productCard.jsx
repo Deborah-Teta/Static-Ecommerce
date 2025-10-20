@@ -14,7 +14,7 @@ const ProductCard = ({ product, onAddToCart }) => {
       />
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{product.name}</h3>
-        <p className="text-gray-600 text-sm mb-3">{product.description}</p>
+        <p className="text-white text-sm mb-3">{product.description}</p>
         <div className="flex justify-between items-center">
           <span className="text-2xl font-bold text-white">{product.price.toLocaleString()} RFW</span>
           <button 

@@ -1,17 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Header';
 import heroImg from '../assets/photos/for home page/32 Simple Modern Gypsum Ceiling Design Ideas For Living Rooms.jpeg'; // adjust path
-const HeroSection = () => {
+function HeroSection () {
   return (
     <section
       id="home"
       className="hero relative h-screen w-full overflow-hidden flex items-center justify-center mb-5"
     >
+    
       <div className="hero-background absolute inset-0 z-0">
         <img 
           src={heroImg} 
           alt="Elegant Home Interior" 
-          className="w-full h-full object-cover brightness-70 saturate-120"
+          className="w-full  h-full object-cover brightness-70 saturate-120"
         />
       </div>
 
@@ -27,12 +29,12 @@ const HeroSection = () => {
         </Link>
       </div>
 
-      <div className="text-white bg-amber-700 shadow-md rounded-lg mt-5 p-4 max-w-xl mx-auto text-center">
+      {/* <div className="text-white bg-amber-700 shadow-md rounded-lg mt-5 p-4 max-w-xl mx-auto text-center">
         <blockquote>
           "Your home should tell the story of who you are, and be a collection of what you love."
           <span className="font-bold italic block mt-2">— Nate Berkus</span>
         </blockquote>
-      </div>
+      </div> */}
     </section>
   );
 };
