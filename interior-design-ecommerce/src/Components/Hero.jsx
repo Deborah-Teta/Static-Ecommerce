@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header';
 import heroImg from '../assets/photos/for home page/32 Simple Modern Gypsum Ceiling Design Ideas For Living Rooms.jpeg'; // adjust path
 function HeroSection () {
   return (
