@@ -73,3 +73,5 @@ This is a simple, educational project for:
 Learning React
 Practicing responsive design
 Exploring local storage concepts
+
+Here IS a live deployed link: https://static-ecommerce-xi.vercel.app/
